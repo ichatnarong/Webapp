@@ -1,0 +1,153 @@
+ul {
+    list-style-type: none;
+}
+
+.submenu {
+    display: none;
+    /* background: #f4f4f4; */
+    background: #ececec;
+    border: 1px solid #dddddd;
+    font-size: 14.5px;
+    padding-left: 0px;
+}
+
+.submenu li {
+    padding: 5px 0px 5px 0px;
+}
+
+.submenu a {
+    display: block;
+    text-decoration: none;
+    /* color: #d9d9d9; */
+    padding: 8px 0px 8px 0px;
+    /* padding-left: 42px; */
+    -webkit-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.icon-submenu-left {
+    text-align-last: right;
+    align-self: center;
+    padding-right: 24px;
+}
+
+.icon-submenu-right {
+    align-self: center;
+    padding-right: 22px;
+    text-align: right;
+}
+
+.container-accordion {
+    padding: 7px;
+    overflow-y: scroll;
+}
+
+.list-item-accordion {
+    padding-block-end: 7px;
+}
+
+
+/* new set color click */
+
+
+/* ------------------------------------------ */
+
+.submenu-breed {
+    color: #21da68ea;
+}
+
+.submenu-breed:hover {
+    background: #17ff7031;
+}
+
+.submenu-breed a:hover {
+    color: #21da68;
+}
+
+.submenu-milk {
+    color: #1ea5ffea;
+}
+
+.submenu-milk:hover {
+    background: #3fb2ff27;
+}
+
+.submenu-milk a:hover {
+    color: #1ea5ff;
+}
+
+.submenu-breast {
+    color: #bec92aea;
+}
+
+.submenu-breast:hover {
+    background: #f4ff582d;
+}
+
+.submenu-breast a:hover {
+    color: #bec92a;
+}
+
+.submenu-pdf {
+    color: #ff1e69ea;
+}
+
+.submenu-pdf:hover {
+    background: #ff3a7c2f;
+}
+
+.submenu-pdf a:hover {
+    color: #ff1e69;
+}
+
+
+/* ----------------------------------------------------- */
+
+.submenu-search {
+    color: #1ea5ffea;
+}
+
+.submenu-search:hover {
+    background: #3fb2ff27;
+}
+
+.submenu-search a:hover {
+    color: #1ea5ff;
+}
+
+.submenu-camera {
+    color: #bec92aea;
+}
+
+.submenu-camera:hover {
+    background: #f4ff582d;
+}
+
+.submenu-camera a:hover {
+    color: #bec92a;
+}
+
+.submenu-edit {
+    color: #21da68ea;
+}
+
+.submenu-edit:hover {
+    background: #17ff7031;
+}
+
+.submenu-edit a:hover {
+    color: #21da68;
+}
+
+.submenu-delete {
+    color: #ff1e69ea;
+}
+
+.submenu-delete:hover {
+    background: #ff3a7c2f;
+}
+
+.submenu-delete a:hover {
+    color: #ff1e69;
+}

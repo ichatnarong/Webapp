@@ -23,4 +23,4 @@ Develop web applications with php, javascript, jquery and bootstrap.
     -	code ส่วนสร้างโฟลเดอกับบันทึกภาพจะอยู่ในส่วน  \save_Photo.php 
     -	code วิธีการเรียกใช้จะอยู่ใน \view\layout\LayoutFooter.js
 
-
+**ตัวอย่างหน้าเว็บอยู่ที่ PrintscreenProject.pdf

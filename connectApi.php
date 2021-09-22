@@ -72,7 +72,7 @@ if (isset($_POST['request'])) {
 
 function get_user($user, $pass)
 {
-    $api_url = 'http://158.108.207.4/project/64_dairy_cattle_v1/Web/Dairy-cattle-system/api/verify_user.php?user=' . $user . '&pass=' . $pass;
+    $api_url = 'http://---.---.---.-/project/64_dairy_cattle_v1/Web/Dairy-cattle-system/api/verify_user.php?user=' . $user . '&pass=' . $pass;
     // Read JSON file
     $data = file_get_contents($api_url);
     $data = json_decode($data, true);
@@ -80,21 +80,21 @@ function get_user($user, $pass)
 }
 function get_farmList($userid)
 {
-    $api_url = 'http://158.108.207.4/project/64_dairy_cattle_v1/Web/Dairy-cattle-system/api/farm_member.php?id=' . $userid;
+    $api_url = 'http://---.---.---.-/project/64_dairy_cattle_v1/Web/Dairy-cattle-system/api/farm_member.php?id=' . $userid;
     // Read JSON file
     $data = file_get_contents($api_url);
     return $data;
 }
 function get_cowList_Farm($farmid)
 {
-    $api_url = 'http://158.108.207.4/project/64_dairy_cattle_v1/Web/Dairy-cattle-system/api/cow_list.php?farm=' . $farmid;
+    $api_url = 'http://---.---.---.-/project/64_dairy_cattle_v1/Web/Dairy-cattle-system/api/cow_list.php?farm=' . $farmid;
     // Read JSON file
     $data = file_get_contents($api_url);
     return $data;
 }
 function get_cowGender($farmid, $cowgender)
 {
-    $api_url = 'http://158.108.207.4/project/64_dairy_cattle_v1/Web/Dairy-cattle-system/api/cow_list.php?farm=' . $farmid . '&gender=' . $cowgender;
+    $api_url = 'http://---.---.---.-/project/64_dairy_cattle_v1/Web/Dairy-cattle-system/api/cow_list.php?farm=' . $farmid . '&gender=' . $cowgender;
     // Read JSON file
     $data = file_get_contents($api_url);
     return $data;
@@ -102,63 +102,63 @@ function get_cowGender($farmid, $cowgender)
 }
 function get_doctorList_Farm($farmid)
 {
-    $api_url = 'http://158.108.207.4/project/64_dairy_cattle_v1/Web/Dairy-cattle-system/api/farm_member.php?vet=' . $farmid;
+    $api_url = 'http://---.---.---.-/project/64_dairy_cattle_v1/Web/Dairy-cattle-system/api/farm_member.php?vet=' . $farmid;
     // Read JSON file
     $data = file_get_contents($api_url);
     return $data;
 }
 function get_cowDetail($cowid)
 {
-    $api_url = 'http://158.108.207.4/project/64_dairy_cattle_v1/Web/Dairy-cattle-system/api/cow_list.php?id=' . $cowid;
+    $api_url = 'http://---.---.---.-/project/64_dairy_cattle_v1/Web/Dairy-cattle-system/api/cow_list.php?id=' . $cowid;
     // Read JSON file
     $data = file_get_contents($api_url);
     return $data;
 }
 function get_userDetail($userid)
 {
-    $api_url = 'http://158.108.207.4/project/64_dairy_cattle_v1/Web/Dairy-cattle-system/api/user_list.php?id=' . $userid;
+    $api_url = 'http://---.---.---.-/project/64_dairy_cattle_v1/Web/Dairy-cattle-system/api/user_list.php?id=' . $userid;
     // Read JSON file
     $data = file_get_contents($api_url);
     return $data;
 }
 function get_myFarmDetail($farmid)
 {
-    $api_url = 'http://158.108.207.4/project/64_dairy_cattle_v1/Web/Dairy-cattle-system/api/farm_list.php?id=' . $farmid;
+    $api_url = 'http://---.---.---.-/project/64_dairy_cattle_v1/Web/Dairy-cattle-system/api/farm_list.php?id=' . $farmid;
     // Read JSON file
     $data = file_get_contents($api_url);
     return $data;
 }
 function get_countCowinFarm($farmid)
 {
-    $api_url = 'http://158.108.207.4/project/64_dairy_cattle_v1/Web/Dairy-cattle-system/api/count_cow.php?farm=' . $farmid;
+    $api_url = 'http://---.---.---.-/project/64_dairy_cattle_v1/Web/Dairy-cattle-system/api/count_cow.php?farm=' . $farmid;
     // Read JSON file
     $data = file_get_contents($api_url);
     return $data;
 }
 function get_codairyDetail($codid)
 {
-    $api_url = 'http://158.108.207.4/project/64_dairy_cattle_v1/Web/Dairy-cattle-system/api/codairy_list.php?id=' . $codid;
+    $api_url = 'http://---.---.---.-/project/64_dairy_cattle_v1/Web/Dairy-cattle-system/api/codairy_list.php?id=' . $codid;
     // Read JSON file
     $data = file_get_contents($api_url);
     return $data;
 }
 function get_npcList($codid)
 {
-    $api_url = 'http://158.108.207.4/project/64_dairy_cattle_v1/Web/Dairy-cattle-system/api/codairy_member.php?office=' . $codid;
+    $api_url = 'http://---.---.---.-/project/64_dairy_cattle_v1/Web/Dairy-cattle-system/api/codairy_member.php?office=' . $codid;
     // Read JSON file
     $data = file_get_contents($api_url);
     return $data;
 }
 function get_userList($farmid)
 {
-    $api_url = 'http://158.108.207.4/project/64_dairy_cattle_v1/Web/Dairy-cattle-system/api/farm_member.php?agri=' . $farmid;
+    $api_url = 'http://---.---.---.-/project/64_dairy_cattle_v1/Web/Dairy-cattle-system/api/farm_member.php?agri=' . $farmid;
     // Read JSON file
     $data = file_get_contents($api_url);
     return $data;
 }
 function get_userAll()
 {
-    $api_url = 'http://158.108.207.4/project/64_dairy_cattle_v1/Web/Dairy-cattle-system/api/user_list.php';
+    $api_url = 'http://---.---.---.-/project/64_dairy_cattle_v1/Web/Dairy-cattle-system/api/user_list.php';
     // Read JSON file
     $data = file_get_contents($api_url);
     return $data;
@@ -166,7 +166,7 @@ function get_userAll()
 
 function add_Cows($cowname, $cownum, $cowspecies, $cowgender, $cowtype, $cowbirthday, $cowfather, $cowmother, $farmid)
 {
-    $url = 'http://158.108.207.4/project/64_dairy_cattle_v1/Web/Dairy-cattle-system/api/cow_list.php';
+    $url = 'http://---.---.---.-/project/64_dairy_cattle_v1/Web/Dairy-cattle-system/api/cow_list.php';
     $data = [
         'cowname' => $cowname,
         'cownum' => $cownum,
@@ -194,7 +194,7 @@ function add_Cows($cowname, $cownum, $cowspecies, $cowgender, $cowtype, $cowbirt
 
 function add_Users($uid, $farmid)
 {
-    $url = 'http://158.108.207.4/project/64_dairy_cattle_v1/Web/Dairy-cattle-system/api/farm_member.php';
+    $url = 'http://---.---.---.-/project/64_dairy_cattle_v1/Web/Dairy-cattle-system/api/farm_member.php';
     $data = [
         'farmid' => $farmid,
         'uid' => $uid
@@ -217,7 +217,7 @@ function add_Users($uid, $farmid)
 
 function edit_Cows($cowid, $cowname, $cownum, $cowspecies, $cowgender, $cowtype, $cowbirthday, $cowfather, $cowmother, $farmid)
 {
-    $url = 'http://158.108.207.4/project/64_dairy_cattle_v1/Web/Dairy-cattle-system/api/cow_list.php?id=' . $cowid;
+    $url = 'http://---.---.---.-/project/64_dairy_cattle_v1/Web/Dairy-cattle-system/api/cow_list.php?id=' . $cowid;
     $data = [
         'cowname' => $cowname,
         'cownum' => $cownum,
@@ -246,7 +246,7 @@ function edit_Cows($cowid, $cowname, $cownum, $cowspecies, $cowgender, $cowtype,
 
 function edit_PhotoCow($cowid, $namepic)
 {
-    $url = 'http://158.108.207.4/project/64_dairy_cattle_v1/Web/Dairy-cattle-system/api/edit_cowpic.php?id=' . $cowid;
+    $url = 'http://---.---.---.-/project/64_dairy_cattle_v1/Web/Dairy-cattle-system/api/edit_cowpic.php?id=' . $cowid;
     $data = [
         'picture' => "picture/cowlist/" . $cowid . "/" . $namepic
     ];
@@ -266,7 +266,7 @@ function edit_PhotoCow($cowid, $namepic)
 
 function edit_PhotoUser($userid, $namepic)
 {
-    $url = 'http://158.108.207.4/project/64_dairy_cattle_v1/Web/Dairy-cattle-system/api/edit_userpic.php?id=' . $userid;
+    $url = 'http://---.---.---.-/project/64_dairy_cattle_v1/Web/Dairy-cattle-system/api/edit_userpic.php?id=' . $userid;
     $data = [
         'picture' => "picture/userlist/" . $userid . "/" . $namepic
     ];
